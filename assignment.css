@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  cursor: pointer;
+  cursor: pointer  ;
  }
  body{
     font-family: "Inter", sans-serif; 
@@ -378,3 +378,94 @@
     font-size: 16px;
     font-weight: 200;
   }
+  #brain .brain{
+    max-width: 1600px;
+    width: 100%;
+    height: 740px;
+    border:  1px solid blue;
+    margin-top: 88px;
+      padding: 120px ;
+      box-sizing: border-box;
+  }
+    #brain .brain .main-brain{
+     
+       max-width:  1360px;
+       width: 100%;
+        height: 600px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    .brainimg {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brainimg img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.braincontent {
+  flex: 1;
+  
+  display: flex;
+  align-items: center;
+}
+.content-offset {
+  padding-left: 60px;
+}
+.content-box {
+  width: 700px;
+  height: 396px;
+  display: flex;
+  flex-direction: column;
+}
+.solution {
+  font-size: 12px;
+   line-height: 20px;
+  font-weight: 400;
+  color: #30B868;
+  margin-bottom: 18px;
+}
+.content-box h2 {
+    max-width: 520px;
+  font-size: 48px;
+   font-weight: bold;
+  line-height: auto;
+  margin-bottom: 26px;
+}
+.content-box p {
+     max-width: 520px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 20px;
+   
+  color: #627382;
+  margin-bottom: 22px;
+}
+.bullet-wrap ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.bullet-wrap li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding-left: 28px;
+  position: relative;
+}
+.bullet-wrap li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 16px;
+  height: 16px;
+background-image: url("assets/CheckCircle.png");
+background-size: contain;
+background-repeat: no-repeat;
+   
+}
+ 
