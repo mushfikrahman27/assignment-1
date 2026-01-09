@@ -382,7 +382,7 @@
     max-width: 1600px;
     width: 100%;
     height: 740px;
-    border:  1px solid blue;
+     
     margin-top: 88px;
       padding: 120px ;
       box-sizing: border-box;
@@ -469,3 +469,125 @@ background-repeat: no-repeat;
    
 }
  
+    
+#Eas .early-access{
+    max-width: 1600px;
+    width: 100%;
+    height: 506px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    padding: 0px;
+     box-sizing: border-box;
+     position: relative;
+    
+}
+
+ #Eas .early-access .eas-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F6F2;
+      margin: 0px 120px  120px 120px;
+      height: 384px;
+      box-sizing: border-box;  
+     height: calc(100%-120px);
+     
+ }
+ #Eas .early-access .heading-eas{
+    text-align: center;
+    max-width: 700px;
+}
+ #Eas .early-access .eas-content h2{
+  font-size: 40px;
+  font-weight: bold;  
+ }
+   #Eas .early-access .eas-content p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    padding-top: 10px;
+  }
+  
+#Eas .early-access .btn-eas{
+    text-align: center;
+    padding-top: 24px;
+    align-items: center;
+}
+#Eas .early-access .btn-eas button{
+    max-width: 194px;
+    height: 52px;
+    padding: 12px 16px 12px 16px;
+     background-color: #30B868;
+     border: none;
+    border-radius: 4px;
+
+    display: flex;                  
+    align-items: center;
+    justify-content: center;
+    gap: 8px;                       
+    cursor: pointer;
+    margin: 0 auto;
+}
+#Eas .early-access .btn-eas button img{
+    width: 14px;                   
+    height: auto;
+}
+#Eas .early-access .btn-eas p{
+    font-size: 14px;
+    font-weight: 200px;
+    color: #627382;
+
+}
+ #challenge .chpart{
+background-color: #001931;
+max-width: 1600px;
+width: 100%;
+height: 340px;
+position: relative;
+}
+#challenge .chpart .logos{
+    width: 1360px;
+    height: 64px;
+    padding-top: 120px;
+    padding-right: 120px;
+    padding-bottom: 30px;
+    padding-left: 120px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#challenge .chpart .logos .flogo{
+ max-width: 350px;
+
+}
+#challenge .chpart .logos .slogo{
+ max-width: 220px;
+ 
+}
+#challenge .chpart .logos .slogo h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+#challenge .chpart .ftr{
+    
+    position: absolute;
+    bottom: 0;
+left: 0;
+right: 0;
+
+ 
+    height: 54px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.ftr-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #ffffff;
+}
